@@ -173,8 +173,6 @@ blueprint_dynamic:                                        # properties for the d
       - SECONDARY_NAMENODE
       - RESOURCEMANAGER
       - APP_TIMELINE_SERVER
-      - YARN_REGISTRY_DNS
-      - TIMELINE_READER
       - HISTORYSERVER
       - SPARK2_JOBHISTORYSERVER
       - HIVE_SERVER
