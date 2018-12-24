@@ -177,6 +177,7 @@ blueprint_dynamic:                                        # properties for the d
       - SPARK2_JOBHISTORYSERVER
       - HIVE_SERVER
       - HIVE_METASTORE
+      - WEBHCAT_SERVER
       - OOZIE_SERVER
       - KNOX_GATEWAY
       - AMBARI_SERVER
