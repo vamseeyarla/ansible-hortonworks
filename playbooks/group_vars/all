@@ -197,9 +197,9 @@ blueprint_dynamic:                                        # properties for the d
       - NODEMANAGER
       - METRICS_MONITOR
       - HST_AGENT
-
-
-
+  - host_group: "hdp-edge"
+    clients: ['ZOOKEEPER_CLIENT', 'HDFS_CLIENT', 'YARN_CLIENT', 'MAPREDUCE2_CLIENT', 'TEZ_CLIENT', 'PIG', 'SQOOP', 'HIVE_CLIENT', 'OOZIE_CLIENT', 'INFRA_SOLR_CLIENT', 'SPARK2_CLIENT']
+    services: []
 
 ############################
 ## helper variables ##                                    # don't change these unless there is a good reason
