@@ -180,6 +180,9 @@ blueprint_dynamic:                                        # properties for the d
       - HIVE_SERVER
       - HIVE_METASTORE
       - OOZIE_SERVER
+      - RANGER_ADMIN
+      - RANGER_USERSYNC
+      - RANGER_KMS_SERVER
       - KNOX_GATEWAY
       - AMBARI_SERVER
       - INFRA_SOLR
