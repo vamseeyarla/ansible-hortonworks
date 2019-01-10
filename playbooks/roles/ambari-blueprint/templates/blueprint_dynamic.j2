@@ -498,6 +498,7 @@
 {% if rangeradmin_hosts|length > 0 and ranger_options.enable_plugins|default(no) %}
         "yarn.acl.enable" : "true",
         "yarn.authorization-provider": "org.apache.ranger.authorization.yarn.authorizer.RangerYarnAuthorizer",
+        "yarn.scheduler.capacity.root.acl_submit_applications": "yarn,ambari-qa,systest",
 {% endif %}
 {% if 'YARN_REGISTRY_DNS' in blueprint_all_services %}
         "hadoop.registry.dns.bind-port": "{{ registry_dns_bind_port | default('53') }}",
